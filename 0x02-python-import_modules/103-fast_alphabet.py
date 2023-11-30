@@ -1,2 +1,1 @@
-#!/usr/bin/python3
-import fast_alphabet_103
+import string; print(''.join(list(getattr(string, 'ascii_uppercase'))))
