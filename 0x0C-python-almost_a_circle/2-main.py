@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""2-main"""
+""" 2-main """
 from models.rectangle import Rectangle
 
 if __name__ == "__main__":
@@ -16,7 +16,7 @@ if __name__ == "__main__":
         print("[{}] {}".format(e.__class__.__name__, e))
 
     try:
-        Rectangle(10, 2)
+        r = Rectangle(10, 2)
         r.x = {}
     except Exception as e:
         print("[{}] {}".format(e.__class__.__name__, e))
